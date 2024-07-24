@@ -1,0 +1,42 @@
+.mainbody{
+    background-color:hsla(0, 0%, 95%, 0.652);
+    margin: auto;
+    width: 606px;
+    height: 430px;
+    padding: 30px;
+}
+.head{
+    text-align:initial;
+    
+}
+body{
+    background-color: black;
+}
+.body1{
+    display: flex;
+}
+.but{
+    background-color: rgb(41, 187, 100);
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
+.but:hover{
+    background-color: rgb(3, 109, 17);
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+}
+.name{
+    width: 50%;
+}
+.name>input{
+    width: 100%;
+}
+.email>input{
+    width: 100%;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
